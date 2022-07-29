@@ -80,6 +80,11 @@ usb_joystick_class Joystick;
 uint8_t usb_joystick_class::manual_mode = 0;
 #endif
 
+#ifdef WHEEL_INTERFACE
+usb_wheel_class Wheel;
+uint8_t usb_wheel_class::manual_mode = 0;
+#endif
+
 #ifdef USB_DISABLED
 usb_serial_class Serial;
 #endif
