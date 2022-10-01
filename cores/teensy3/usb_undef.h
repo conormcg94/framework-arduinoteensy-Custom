@@ -215,6 +215,18 @@
 #ifdef JOYSTICK_INTERVAL
 #undef JOYSTICK_INTERVAL
 #endif
+#ifdef WHEEL_INTERFACE
+#undef WHEEL_INTERFACE
+#endif
+#ifdef WHEEL_ENDPOINT
+#undef WHEEL_ENDPOINT
+#endif
+#ifdef WHEEL_SIZE
+#undef WHEEL_SIZE
+#endif
+#ifdef WHEEL_INTERVAL
+#undef WHEEL_INTERVAL
+#endif
 #ifdef CDC_IAD_DESCRIPTOR
 #undef CDC_IAD_DESCRIPTOR
 #endif
