@@ -377,10 +377,14 @@ let me know?  http://forum.pjrc.com/forums/4-Suggestions-amp-Bug-Reports
   #define MOUSE_ENDPOINT        5
   #define MOUSE_SIZE            8
   #define MOUSE_INTERVAL        2
-  #define WHEEL_INTERFACE    4	// Wheel
-  #define WHEEL_ENDPOINT     6
-  #define WHEEL_SIZE         12	//  12 = normal, 64 = extreme joystick
-  #define WHEEL_INTERVAL     1
+  #define JOYSTICK_INTERFACE    4	// Joystick
+  #define JOYSTICK_ENDPOINT     6
+  #define JOYSTICK_SIZE         12	//  12 = normal, 64 = extreme joystick
+  #define JOYSTICK_INTERVAL     1
+  // #define WHEEL_INTERFACE    4	// Wheel
+  // #define WHEEL_ENDPOINT     6
+  // #define WHEEL_SIZE         12	//  12 = normal, 64 = extreme joystick
+  // #define WHEEL_INTERVAL     1
   #define ENDPOINT1_CONFIG	ENDPOINT_TRANSMIT_ONLY
   #define ENDPOINT2_CONFIG	ENDPOINT_TRANSMIT_ONLY
   #define ENDPOINT3_CONFIG	ENDPOINT_RECEIVE_ONLY
